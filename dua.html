@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>📖 Iftar va Saharlik Duosi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #1c1c3c, #3a506b);
+      color: white;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(15px);
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .dua {
+      font-size: 20px;
+      font-style: italic;
+      margin: 15px 0;
+    }
+    .btn {
+      padding: 12px 20px;
+      background: #FFD700;
+      color: #333;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #FFC107;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>📖 IFTOR VA SAHARLIK DUOLARI</h1>
+
+  <h2>🌙 IFTOR DUOSI</h2>
+  <p class="dua">اللَّهُمَّ لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَيْكَ تَوَكَّلْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ</p>
+  <p><b>Ma'nosi:</b> "Allohim! Sen uchun ro‘za tutdim, Senga ishondim, Senga tavakkal qildim, Sen rizq berding, men iftor qildim."</p>
+
+  <h2>🌅 SAHARLIK (RO‘ZAGA NIYAT) DUOSI</h2>
+  <p class="dua">وَبِصَوْمِ غَدٍ نَوَيْتُ مِنْ شَهْرِ رَمَضَانَ</p>
+  <p><b>Ma'nosi:</b> "Ertangi Ramazon ro‘zasini tutmoqqa niyat qildim."</p>
+
+  <button class="btn" onclick="goBack()">🔙 Orqaga</button>
+</div>
+
+<script>
+  function goBack() {
+    window.history.back();
+  }
+</script>
+
+</body>
+</html>
